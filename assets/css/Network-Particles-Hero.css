@@ -1,0 +1,78 @@
+.jumbotron.jumbotron-main {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  margin: 0;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("pexels-photo-861103.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  /*background: #6819e8;*/
+  /*background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);*/
+  /*background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);*/
+  /*background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 );*/
+}
+
+.center-vertically {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.center-vertically-holder {
+  display: table;
+  height: 100%;
+}
+
+#hero-title {
+  font-size: 63px;
+  font-weight: bold;
+  text-shadow: 1px 3px 5px #111;
+}
+
+#hero-subtitle {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#hero-btn {
+  margin-top: 73px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  background-color: rgb(255,92,0);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgb(225,82,1);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ff5c00;
+  border-color: #ff8a00;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ff5c00;
+  border-color: #ff5c00;
+}
+
